@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiInput-underline::after {
+    border-bottom-color: darkred !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: darkred !important;
+}
+
+.MuiFormLabel-root.Mui-focused{
+  color: red !important;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: black !important;
+}
+
+.a {
+  color: rgb(255, 255, 255) !important;
+}
+
+.html, body {
+  height: 100vh
+}
+
+#root, #loginUser {
+  height: 100vh
+}
+
+
+#login-user-image {
+  background-image: url("bg-1.jpg");
+  background-size:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.wrap #login-user-image  {
+  min-height: 250px;
+}
+
+#login-user-form {
+  height: 650px;
+  min-width: 500px;
+}
+
+#login-user-image, #login-wrap {
+  width: 100%;
+}
