@@ -1,0 +1,9 @@
+django
+djangorestframework
+django-cors-headers
+django-filter
+django-taggit
+tinytag
+ffmpeg-streaming2
+djangorestframework-simplejwt
+djangorestframework-jwt
